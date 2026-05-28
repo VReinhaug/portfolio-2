@@ -6,3 +6,30 @@
   --color-accent: #ff4d8d;
   --color-accent-hover: #ff70a6;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 6rem 2rem;
+}
+
+.container {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
