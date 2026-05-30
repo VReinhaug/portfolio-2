@@ -1,11 +1,12 @@
 import styles from "./About.module.css";
+import buttonStyles from "../../styles/buttons.module.css";
 
 function About() {
   return (
     <section id="about" className={styles.about}>
       <div className={`container ${styles.content}`}>
         <div>
-          <p className={styles.subtitle}>Frontend Developer Student</p>
+          <p className={styles.subtitle}>Front-end Developer Student</p>
 
           <h1>
             Hi there, I'm <span>Veronika</span>
@@ -19,7 +20,7 @@ function About() {
             experiences and improving usability.
           </p>
 
-          <a href="#projects" className={styles.button}>
+          <a href="#projects" className={buttonStyles.button}>
             View Projects
           </a>
         </div>
