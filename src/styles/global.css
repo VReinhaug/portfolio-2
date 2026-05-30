@@ -25,7 +25,8 @@ a {
   color: inherit;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Sora", sans-serif;
   margin-bottom: 1.5rem;
 }
