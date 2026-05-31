@@ -63,6 +63,20 @@
   flex-grow: 1;
 }
 
+.description {
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.description p {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.description p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .techStack {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +90,7 @@
   color: var(--color-accent);
 
   padding: 0.4rem 0.8rem;
-  border-radius: 999px;
+  border-radius: 50px;
 
   font-size: 0.85rem;
 }
