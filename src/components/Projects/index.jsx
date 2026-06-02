@@ -1,14 +1,14 @@
 import styles from "./Projects.module.css";
 import buttonStyles from "../../styles/buttons.module.css";
 
-//import GoodBid from "../../assets/goodbid.jpg";
-//import UniMart from "../../assets/unimart.jpg";
-//import Holidaze from "../../assets/holidaze.jpg";
+import GoodBid from "../../assets/goodbid.jpg";
+import UniMart from "../../assets/unimart.jpg";
+import Holidaze from "../../assets/holidaze.jpg";
 
 const projects = [
   {
     title: "GoodBid",
-    //image: GoodBid,
+    image: GoodBid,
     description: [
       "GoodBid is a semester project created as an assignment for Front-End Development studies at Noroff.",
 
@@ -24,7 +24,7 @@ const projects = [
 
   {
     title: "UniMart",
-    //image: UniMart,
+    image: UniMart,
     description: [
       "UniMart is a Course Assignment for JavaScript Frameworks as part of the Front-end Development studies at Noroff.",
 
@@ -40,7 +40,7 @@ const projects = [
 
   {
     title: "Holidaze",
-    //image: Holidaze,
+    image: Holidaze,
     description: [
       "Holidaze is a React-based web application for booking and managing venues for overnight stays. This project was developed as the Project Exam 2 assignment during the Front-end Development program at Noroff.",
 
