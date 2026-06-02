@@ -11,13 +11,18 @@ function Contact() {
         </p>
 
         <div className={styles.links}>
-          <a href="https://github.com/VReinhaug" target="_blank">
+          <a
+            href="https://github.com/VReinhaug"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>
 
           <a
             href="https://www.linkedin.com/in/veronika-reinhaug/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
