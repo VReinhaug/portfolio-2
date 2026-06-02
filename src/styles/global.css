@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text-main);
@@ -34,6 +38,7 @@ h3 {
 
 section {
   padding: 4rem 2rem;
+  scroll-margin-top: 100px;
 }
 
 .container {
