@@ -1,0 +1,47 @@
+:root {
+  --color-bg: #0f1115;
+  --color-surface: #1a1d24;
+  --color-text-main: #f5f7fa;
+  --color-text-secondary: #a7b0be;
+  --color-accent: #ff4d8d;
+  --color-accent-hover: #ff70a6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Sora", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  padding: 4rem 2rem;
+  scroll-margin-top: 100px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}

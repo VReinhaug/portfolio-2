@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--color-surface);
+
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navList a {
+  color: var(--color-accent);
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.navList a:hover {
+  color: var(--color-accent-hover);
+}
