@@ -89,6 +89,7 @@ function Projects() {
                     href={project.github}
                     className={buttonStyles.button}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     GitHub Repo
                   </a>
@@ -97,6 +98,7 @@ function Projects() {
                     href={project.demo}
                     className={buttonStyles.button}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Live Demo
                   </a>
