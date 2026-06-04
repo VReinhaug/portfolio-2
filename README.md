@@ -24,6 +24,9 @@ The application includes:
 - JavaScript
 - CSS Modules
 
+## Hosted Site
+[Live Demo](https://portfolio-veronika-r.netlify.app/)
+
 ## Getting started
 
 ### Installing
